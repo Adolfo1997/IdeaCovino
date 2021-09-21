@@ -1,0 +1,38 @@
+.imgGaleria {
+    width: 100%;
+    height: 250px;
+
+    &:hover {
+        border: 5px solid rgb(202, 155, 181);
+    }
+}
+.btn {
+  border:none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: rgb(214, 163, 216);
+  background-color: rgb(211, 129, 211);
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  }
+.violeta{
+    border-color: #df7ed7;
+  color: rgb(102, 74, 96);
+}
+.violeta:hover{
+    background: #ca75bf;
+    color: rgb(255, 255, 255);
+}
+.centrar{
+    border:none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    text-align: center;
+    width: 100%;
+    font-size: 18px;
+
+}

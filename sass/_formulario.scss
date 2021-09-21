@@ -1,0 +1,72 @@
+// grilla
+.parent {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  }
+  
+  .div1 { grid-area: 1 / 1 / 2 / 2; }
+  .div2 { grid-area: 1 / 2 / 2 / 3; }
+
+// formulario de contacto
+
+/* formulario de contacto */
+.contenedor {
+  background-color:  #0c0c0c;
+  width: 400px;
+  padding: 25px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  color: rgb(194, 153, 180);
+  box-shadow: 7px 13px 37px (250, 215, 238)e;
+}
+
+.contenedor h3 {
+  font-size: 30px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.control {
+  width: 100%;
+  background-color: #70626d;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  border: 1px solid #70626e;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: rgb(122, 81, 110);
+}
+
+.control:focus {
+  height: 65px;
+}
+
+.boton {
+  width: 100%;
+  height: 45px;
+  margin-top: 15px;
+  border-radius: 5px;
+  border: none;
+  color: rgb(26, 17, 7);
+  text-transform: uppercase;
+  background: linear-gradient(to left top #d39de4, #693561);
+  font-size: 20px;
+}
+
+.boton:hover {
+  cursor: pointer;
+  transform: translateY(-3px);
+  transition: all cubic-bezier(0.215, 0.610, 0.355, 1) .5s;
+}
+
+.boton:active {
+  transform: translateY(3px);
+}
+
