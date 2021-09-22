@@ -23,6 +23,9 @@ body {
   width: 100%;
   font-size: 18px; }
 
+main a {
+  text-align: center; }
+
 footer {
   background-color: #555;
   color: #bbb;
