@@ -14,26 +14,6 @@ body {
   .imgGaleria:hover {
     border: 5px solid #ca9bb5; }
 
-.btn {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 8px;
-  color: #d6a3d8;
-  background-color: #d381d3;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-  font-size: 18px; }
-
-.violeta {
-  border-color: #df7ed7;
-  color: #664a60; }
-
-.violeta:hover {
-  background: #ca75bf;
-  color: white; }
-
 .centrar {
   border: none;
   outline: 0;
