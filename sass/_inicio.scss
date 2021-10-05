@@ -1,13 +1,12 @@
-.index {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: .7fr repeat(3, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-}
 
-.div11 {
-    grid-area: 2 / 2 / 3 / 5;
+
+.tit {
+    background-color: #fafafa;
+    margin: 1rem;
+    padding: 1rem;
+    border: 3px solid #ccc;
+    text-align: center;
+    margin-top: 50px; 
 }
 
 @media (max-width: 700px) {
@@ -19,3 +18,4 @@
         grid-row-gap: 0px;
     }
 }
+

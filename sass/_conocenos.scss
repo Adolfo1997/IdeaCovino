@@ -1,35 +1,33 @@
+
 .conoce {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr) 2fr repeat(2, 1fr);
-    grid-template-rows: repeat(5, 1fr);
-    grid-column-gap: 7px;
-    grid-row-gap: 9px;
-    }
+  display: grid;
+  grid-template-columns: repeat(2, 1fr) 2fr repeat(2, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 7px;
+  grid-row-gap: 9px;
+  }
+  
+  .div10 { grid-area: 2 / 1 / 4 / 3; }
+  .div20 { grid-area: 2 / 3 / 4 / 6; }
+  .div30 { grid-area: 4 / 4 / 6 / 6; }
+  .div40 { grid-area: 4 / 1 / 6 / 4; }
+  
+
+
+
     
-    .div10 { grid-area: 2 / 1 / 4 / 3; }
-    .div20 { grid-area: 2 / 3 / 4 / 6; }
-    .div30 { grid-area: 4 / 4 / 6 / 6; }
-    .div40 { grid-area: 4 / 1 / 6 / 4; }
-    .div50 { grid-area: 1 / 3 / 2 / 4; }
-
-
-    .conocenos {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-      }
       @media (max-width: 700px) {
         .conoce{
-            display: grid;
-            grid-template-columns: 0.2fr repeat(2, 1fr) 0.2fr;
-            grid-template-rows: repeat(10, 1fr);
-            grid-column-gap: 0px;
-            grid-row-gap: 10px;
+          display: grid;
+          grid-template-columns: 0.2fr repeat(2, 1fr) 0.2fr;
+          grid-template-rows: repeat(10, 1fr);
+          grid-column-gap: 0px;
+          grid-row-gap: 10px;
             }
             
             .div10 { grid-area: 3 / 2 / 5 / 4; }
             .div20 { grid-area: 5 / 2 / 7 / 4; }
             .div30 { grid-area: 7 / 2 / 9 / 4; }
             .div40 { grid-area: 9 / 2 / 11 / 4; }
-            .div50 { grid-area: 2 / 2 / 3 / 4; }
+            
       }
