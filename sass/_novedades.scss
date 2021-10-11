@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+@mixin centrar {
+  text-align: center;
+  font-size: large;
+}
+
 .novedades {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -32,8 +38,9 @@
     animation-iteration-count: infinite;
   }
 }
-h4{
-  text-align: center;
+
+h4 {
+  @include centrar;
   font-family: 'Lato', sans-serif;
 
 }

@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 //error variables
- $background:#1a1a1a; 
+$background:#1a1a1a;
 $button:#0077d8f4;
 $font:'Gill Sans',
 sans-serif;
 //colores 
 $colorfondo: #ebe5dc;
 
+@mixin centrar {
+    text-align: center;
+    font-size: large;
+}

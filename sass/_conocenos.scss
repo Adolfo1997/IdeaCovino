@@ -23,15 +23,18 @@
   grid-area: 4 / 1 / 6 / 4;
 }
 
-.conoceme{margin: 0 1em 0.8em 1em;
+.conoceme {
+  margin: 0 1em 0.8em 1em;
   text-align: center;
   text-justify: inter-word;
 }
-.conotit{
+
+.conotit {
   text-align: center;
-  
+
 }
-p{
+
+p {
   margin: auto;
   text-align: center;
 }
@@ -54,7 +57,7 @@ p{
   }
 
   .div30 {
-    grid-area:5 / 2 / 7 / 4;
+    grid-area: 5 / 2 / 7 / 4;
   }
 
   .div40 {

@@ -45,7 +45,7 @@
   font-size: 30px;
   margin-top: 15px;
   margin-bottom: 10px;
-  text-align: center;
+  @include centrar;
   text-transform: uppercase;
 }
 
@@ -94,8 +94,13 @@
     grid-template-rows: repeat(2, 1fr) 0.2fr repeat(2, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-    }
-    
-    .div1 { grid-area: 4 / 2 / 6 / 4; }
-    .div2 { grid-area: 1 / 2 / 3 / 4; }
   }
+
+  .div1 {
+    grid-area: 4 / 2 / 6 / 4;
+  }
+
+  .div2 {
+    grid-area: 1 / 2 / 3 / 4;
+  }
+}
