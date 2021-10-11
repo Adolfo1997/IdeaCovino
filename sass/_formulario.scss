@@ -24,7 +24,7 @@
 }
 
 .negro {
-  background-color: #eeb1e4;
+  background-color: #0f0e0f;
 }
 
 // formulario de contacto
@@ -37,7 +37,7 @@
   margin: auto;
   margin-top: 50px;
   border-radius: 4px;
-  color: rgb(230, 130, 180);
+  color: $colorfondo;
   box-shadow: 7px 13px 37px (250, 215, 238)e;
 }
 
@@ -51,11 +51,11 @@
 
 .control {
   width: 100%;
-  background-color: #70626d;
+  background-color: #c2c2c2;
   padding: 10px;
   border-radius: 4px;
   margin-bottom: 20px;
-  border: 1px solid #70626e;
+  border: 1px solid #d3b5cc;
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
   color: rgb(10, 10, 10);
@@ -73,7 +73,7 @@
   border: none;
   color: rgb(26, 17, 7);
   text-transform: uppercase;
-  background: linear-gradient(to left top #d39de4, #693561);
+  background: linear-gradient(to left top #100014, #1b111a);
   font-size: 20px;
 }
 

@@ -9,11 +9,15 @@ body {
   min-height: 75rem;
   padding-top: 4.5rem; }
 
+.personalizar {
+  text-align: center;
+  font-size: x-large; }
+
 .imgGaleria {
   width: 100%;
   height: 250px; }
   .imgGaleria:hover {
-    border: 5px solid #ca9bb5; }
+    border: 5px solid #7c7973; }
 
 .centrar {
   border: none;
@@ -148,7 +152,7 @@ input[type="submit"] {
   box-shadow: 7px 13px 37px 250, 215, 238 e; }
 
 .negro {
-  background-color: #eeb1e4; }
+  background-color: #0f0e0f; }
 
 /* formulario de contacto */
 .contenedor {
@@ -158,7 +162,7 @@ input[type="submit"] {
   margin: auto;
   margin-top: 50px;
   border-radius: 4px;
-  color: #e682b4;
+  color: #ebe5dc;
   box-shadow: 7px 13px 37px 250, 215, 238 e; }
 
 .contenedor h3 {
@@ -170,11 +174,11 @@ input[type="submit"] {
 
 .control {
   width: 100%;
-  background-color: #70626d;
+  background-color: #c2c2c2;
   padding: 10px;
   border-radius: 4px;
   margin-bottom: 20px;
-  border: 1px solid #70626e;
+  border: 1px solid #d3b5cc;
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
   color: #0a0a0a; }
@@ -190,7 +194,7 @@ input[type="submit"] {
   border: none;
   color: #1a1107;
   text-transform: uppercase;
-  background: linear-gradient(to left top #d39de4, #693561);
+  background: linear-gradient(to left top #100014, #1b111a);
   font-size: 20px; }
 
 .boton:hover {
@@ -330,6 +334,10 @@ input[type="submit"] {
 .conotit {
   text-align: center; }
 
+p {
+  margin: auto;
+  text-align: center; }
+
 @media (max-width: 700px) {
   .conoce {
     display: grid;
@@ -347,12 +355,15 @@ input[type="submit"] {
     grid-area: 7 / 2 / 9 / 4; } }
 
 .tit {
-  background-color: #fafafa;
+  background-color: #ebe5dc;
   margin: 1rem;
   padding: 1rem;
-  border: 3px solid #ccc;
+  border: 3px solid #ebe5dc;
   text-align: center;
   margin-top: 50px; }
+
+main {
+  background-color: #ebe5dc; }
 
 @media (max-width: 700px) {
   .index {
